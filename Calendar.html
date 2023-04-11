@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Calendar.css" rel="stylesheet">
+    <title>Calendar</title>
+</head>
+<body>
+    <h1>Calendar</h1>
+	
+	<table>
+		<thead>
+			<tr>
+				<th colspan="7">
+					<span class="prev-month" onclick="prevMonth()">&#10094;</span>
+					<span id="current-month">April 2023</span>
+					<span class="next-month" onclick="nextMonth()">&#10095;</span>
+				</th>
+			</tr>
+			<tr>
+				<th>Sun</th>
+				<th>Mon</th>
+				<th>Tue</th>
+				<th>Wed</th>
+				<th>Thu</th>
+				<th>Fri</th>
+				<th>Sat</th>
+			</tr>
+		</thead>
+		<tbody id="calendar-body">
+			
+		</tbody>
+	</table>
+
+  <script src="Calendar.js"></script>
+</body>
+</html>
